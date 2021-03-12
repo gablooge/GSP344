@@ -9,3 +9,7 @@ https://www.qwiklabs.com/focuses/14677?parent=catalog
 
 > cd GSP344
 
+> chmod +x cloudshell.sh
+
+> ./cloudshell.sh
+
