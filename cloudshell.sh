@@ -20,8 +20,10 @@ cd ../../firebase-rest-api/solution-02/
 gcloud builds submit --tag gcr.io/$PROJECT_ID/rest-api:0.2
 cd ../../firebase-frontend/
 gcloud builds submit --tag gcr.io/$PROJECT_ID/frontend-staging:0.1
+gcloud builds submit --tag gcr.io/$PROJECT_ID/frontend-production:0.1
 
 gcloud run deploy --image gcr.io/$PROJECT_ID/rest-api:0.1
+
  # 1
  # netflix-dataset-service
  # 18
